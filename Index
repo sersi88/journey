@@ -1,0 +1,10 @@
+my-website/
+│
+├── Home.html
+├── About.html
+├── Sunnah.html
+├── Life.html
+├── Science.html
+├── Love.html
+└── css/
+    └── style.css
