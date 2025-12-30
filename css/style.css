@@ -76,20 +76,27 @@ footer {
 
 .opening-quote {
     text-align: center;
-    margin: 40px 20px;
+    margin: 50px 20px;
 }
 
 .quote {
-    font-family: "Georgia", serif; /* elegant serif font */
+    font-family: "Georgia", serif;
     font-style: italic;
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     color: #333;
     margin-bottom: 10px;
 }
 
 .arabic {
-    font-family: "Scheherazade", "Amiri", serif; /* Arabic-friendly font if available */
+    font-family: "Scheherazade", "Amiri", serif;
     font-size: 1.4rem;
     color: #555;
     margin-bottom: 20px;
+}
+
+/* Optional: spacing for paragraph below */
+.opening-quote p:last-of-type {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #444;
 }
