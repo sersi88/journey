@@ -82,21 +82,23 @@ footer {
 .quote {
     font-family: "Georgia", serif;
     font-style: italic;
-    font-size: 1.9rem;
-    color: #333;
-    margin-bottom: 10px;
+    font-size: 1.5rem;        /* smaller than before */
+    color: #555;              /* softer grey instead of black */
+    line-height: 1.4;
+    margin-bottom: 5px;       /* less space so Arabic sits closer */
 }
 
 .arabic {
     font-family: "Scheherazade", "Amiri", serif;
-    font-size: 1.4rem;
-    color: #555;
-    margin-bottom: 20px;
+    font-size: 1rem;          /* smaller than English quote */
+    color: #777;              /* lighter tone of the same grey */
+    margin-bottom: 20px;      /* space before paragraph */
 }
 
-/* Optional: spacing for paragraph below */
+/* Explanatory paragraph below the quotes */
 .opening-quote p:last-of-type {
     font-size: 1.1rem;
     line-height: 1.7;
     color: #444;
 }
+
