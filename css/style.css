@@ -74,31 +74,33 @@ footer {
     border-top: 1px solid #eee;
 }
 
+/* Opening quote section */
 .opening-quote {
     text-align: center;
     margin: 50px 20px;
 }
 
+/* English quote */
 .quote {
-    font-family: "Georgia", serif;
-    font-style: italic;
-    font-size: 1.5rem;        /* smaller than before */
-    color: #555;              /* softer grey instead of black */
+    font-family: "Georgia", serif !important; /* ensure serif is used */
+    font-style: italic !important;            /* enforce italics */
+    font-size: 1.3rem !important;            /* smaller font */
+    color: #666 !important;                   /* soft grey, lighter than black */
     line-height: 1.4;
-    margin-bottom: 5px;       /* less space so Arabic sits closer */
+    margin-bottom: 5px;
 }
 
+/* Arabic quote below */
 .arabic {
-    font-family: "Scheherazade", "Amiri", serif;
-    font-size: 1rem;          /* smaller than English quote */
-    color: #777;              /* lighter tone of the same grey */
-    margin-bottom: 20px;      /* space before paragraph */
+    font-family: "Scheherazade", "Amiri", serif !important;
+    font-size: 1rem !important;               /* smaller than English */
+    color: #999 !important;                   /* lighter grey */
+    margin-bottom: 20px;
 }
 
-/* Explanatory paragraph below the quotes */
+/* Explanatory paragraph */
 .opening-quote p:last-of-type {
     font-size: 1.1rem;
     line-height: 1.7;
     color: #444;
 }
-
