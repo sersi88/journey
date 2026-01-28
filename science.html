@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,41 +6,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
 
-    <!-- Book download styling -->
+    <!-- Book download styling and warmth -->
     <style>
+        body {
+            font-family: 'Georgia', serif; /* warmer font */
+            color: #3b3b3b; /* soft dark gray instead of black */
+            background-color: #fffdf9; /* soft warm off-white */
+            line-height: 1.6;
+        }
+
+        h1, h2, h3 {
+            color: #4a4a4a; /* softer than black */
+        }
+
+        .nav a {
+            color: #5a4b3c; /* warmer brownish tones */
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            transition: background-color 0.2s ease;
+        }
+
+        .nav a:hover {
+            background-color: #f0e6d6; /* soft warm highlight */
+        }
+
+        .opening-quote {
+            background-color: #fff7e8; /* soft warm background */
+            padding: 1.5rem;
+            border-radius: 12px;
+            margin-bottom: 2rem;
+        }
+
+        .opening-quote .quote {
+            font-style: italic;
+            color: #6b4e3d; /* warm brown tone */
+        }
+
+        .opening-quote .arabic {
+            font-size: 1.3rem;
+            color: #5a3d2b; /* slightly darker warm tone */
+            margin-bottom: 0.5rem;
+        }
+
+        /* Book Download Section */
         .book-download {
             margin-top: 2rem;
-            padding: 1rem;
-            border: 1px solid #ddd;
+            padding: 1.5rem;
+            border: 1px solid #dcd1c4;
             border-radius: 10px;
-            background-color: #fafafa;
+            background-color: #fff8f0; /* warmer background */
         }
 
         .book-download h3 {
             margin-bottom: 0.5rem;
+            color: #6b4e3d; /* warm heading */
         }
 
         .book-download a {
-    display: inline-block;
-    margin-top: 0.5rem;
-    padding: 10px 18px;
-    border-radius: 8px;
-    text-decoration: none;     /* no underline */
-    font-weight: 600;
+            display: inline-block;
+            margin-top: 0.5rem;
+            padding: 10px 18px;
+            border-radius: 8px;
+            text-decoration: none; /* no underline */
+            font-weight: 600;
 
-    color: #2f3a40;            /* muted dark tone */
-    background-color: #f2f4f3; /* soft neutral */
-    border: 1px solid #d6dbd9;
+            color: #3b3b3b; /* muted dark tone */
+            background-color: #f7f2eb; /* soft warm neutral */
+            border: 1px solid #e0d6c8;
 
-    transition: all 0.2s ease;
-}
+            transition: all 0.2s ease;
+        }
 
-.book-download a:hover {
-    color: #1f262b;            /* slightly darker on hover */
-    background-color: #e4e9e7; /* subtle hover background */
-    font-weight: 700;           /* bold on hover */
-    text-decoration: none;      /* still no underline */
-}
+        .book-download a:hover {
+            color: #2f2f2f; /* slightly darker on hover */
+            background-color: #e9e1d6; /* subtle hover background */
+            font-weight: 700;
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #BFE3B4; /* soft green matching homepage */
+            color: #3b3b3b;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+            font-size: 0.95rem;
+        }
     </style>
 </head>
 <body>
